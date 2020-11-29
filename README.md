@@ -1,7 +1,9 @@
 # Test PHP
 
-# Run 
+# Composer
 composer upgrade
+
+# Run 
 php index.php
 
 # For run tests
