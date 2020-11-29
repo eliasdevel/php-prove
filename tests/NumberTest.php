@@ -31,4 +31,13 @@ class NumberTest extends TestCase
 
         $five->print();
     }
+
+    public function testPrintThree()
+    {
+        $this->expectOutputString("Three \n");
+
+        $five = new Number(6);
+
+        $five->print();
+    }
 }
